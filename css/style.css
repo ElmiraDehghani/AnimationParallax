@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#skroller{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(67, 67, 122), rgb(8, 8, 77), rgb(1, 1, 8));
+
+
+    
+     }
+
+div{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+#imgBg{
+    background: url(../img/alp.png) no-repeat top ;
+    background-size: 25%;
+    top:22%;
+  z-index: 2;
+}
+#imgBg1{
+    background: url(../img/alp.png) no-repeat right ;
+    background-size: 25%;
+    top:-15%;
+    right: 2%;
+  z-index: 2;
+}
+#imgBg2{
+    background: url(../img/alp.png) no-repeat top ;
+    top:25%;
+    background-size: 26%;
+    left:13%;
+  z-index: 8;
+}
+#imgBg3{
+    background: url(../img/alp.png) no-repeat top ;
+    top: 30%;
+    background-size: 18%;
+    right: 12%;
+  z-index: 2;
+}
+#moon{
+    background: url(../img/moon2.png)no-repeat;
+    background-size: 5%;
+    top: 5%;
+    left: 12%;
+    z-index: -6;
+}
+#earth{
+    background: url(../img/srar.png) top;
+    background-size: 36%;
+    top:-60%;
+    opacity: 0.4;
+ z-index: -3;
+}
+#jungle{
+    background: url(../img/grass2.png)no-repeat left;
+    background-size: 30%;
+    top: 30%;
+    right: 5%;
+}
+#tre{
+    background: url(../img/tt4.png)no-repeat left;
+
+}
+#tack{
+    background: url(../img/grass2.png)no-repeat left;
+    background-size: 32%;
+    top: 10%;
+    right: 2%;
+}
+#barg1{
+    background: url(../img/barg2.png)no-repeat right;
+right: 20%;
+background-size: 80px;
+top: 38%;
+z-index: 8;
+
+}
+#barg{
+    background: url(../img/barg9.png)no-repeat left;
+    background-size: 100px;
+    top: 25%;
+    z-index: 7;
+    left: 5%;
+}
+#sang{
+    background: url(../img/gress22.png) no-repeat right;
+    background-size: 45%;
+    top: 7%;
+    z-index: -5;
+}
+#gress{
+    background: url(../img/grass.png) no-repeat left;
+    background-size: 40%;
+    top:40%;
+    right: 2px;
+    z-index: 10;
+
+}
+#gress2{
+    background: url(../img/gress22.png)no-repeat right;
+    background-size: 30%;
+    top:42%
+}
+#tree{
+    background: url(../img/grass2.png)no-repeat center;
+    background-size: 70%;
+    left: 20%;
+    top:55%;
+    z-index: -5;
+}
+#tap1{
+    background: url(../img/alp.png) no-repeat  left;
+    background-size: 30%;
+  top: -19%;
+    left: 100px;
+}
+#tap2{
+    background: url(../img/tap3.png) no-repeat left;
+    left: 30%;
+    top:48%;
+}
+#tree1{
+    background: url(../img/tt3.png)no-repeat right;
+    background-size: 11%;
+    top: 25%;
+    right:  20px;
+    z-index: -1;
+
+}
+#tree2{
+    background: url(../img/tt4.png)no-repeat right;
+    background-size: 10%;
+    top: 20%;
+    z-index: -1;
+
+}
+#animail1{
+    background: url(../img/ani4.png)no-repeat right;
+    background-size: 12%;
+    right: 10%;
+    z-index: -3;
+top: 6%;
+}
+#pol{
+    background: url(../img/pol.png)no-repeat center;
+    background-size: 35%;
+    right: 7%;
+    top:18%
+}
+#animail2{
+    background: url(../img/cat.png) no-repeat right;
+    background-size: 50px;
+    top: 7%;
+    right: 6%;
+    z-index: -10;
+}
+#animail22{
+    background: url(../img/brd.png)no-repeat left;
+    top: -14%;
+    left: 32%;
+    background-size: 100px;
+}
+#animailcat{
+    background: url(../img/ghav.png)no-repeat bottom;
+    background-size: 90px;
+    left: -25%;
+    bottom: 5%;
+}
+#animail3{
+    background: url(../img/brd.png)no-repeat ;
+    background-size: 80px;
+    left: 15%;
+    top: 20%;
+    z-index: -5;
+}
+#animail4{
+    background: url(../img/brdopay.png)no-repeat right ;
+    background-size: 50px;
+    top: -10%;
+    right: 5%;
+
+}
+#car{
+    background: url(../img/car2.png)no-repeat right;
+    z-index: 5;
+    z-index: -3;
+    top: 6%;
+}
